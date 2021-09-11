@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--todo: readd embed shit here-->
+    <title>Snipeware Client</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/snipeware.webp">
+    <link rel="icon" type="image/png" href="./assets/snipeware.webp">
+
+    <script src="https://cdn.sellix.io/static/js/embed.js"></script>
+    <script src="./assets/index.js"></script>
+    <link href="https://cdn.sellix.io/static/css/embed.css" rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+    <link href="./assets/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header" style="display: flex;">
+        <a href=./index.html#home>
+            <img src="./assets/snipeware.webp" height="70px"></img>
+        </a>
+        <div style="margin: auto 0 auto auto; text-align: right;">
+            <a href="./apply.html" style="margin: 10px; font-size: 25px;">Apply</a>
+            <a href="./buy.html" style="margin: 10px; font-size: 25px;">Buy</a>
+            <a href="./credits.html" style="margin: 10px; font-size: 25px;">Credits</a>
+        </div>
+    </div>
+
+    <div class="video-wrap">
+        <iframe id="video-iframe" title="Showcase video"
+            src="https://www.youtube-nocookie.com/embed/DbC5hlssKOM?controls=0&amp;showinfo=0&amp;rel=0&amp;autoplay=1&amp;loop=1&amp;mute=1"
+            frameborder="0"></iframe>
+    </div>
+
+    <div class="title" style="left: 44px; top: 100px;">
+        <h1><span style="color: var(--accent);">Snipe</span>ware</h1>
+        <span id="motd">Utility client for 1.8</span>
+        <button class="discord-button" style="margin-top: 50px;"
+            onclick="location.href='https://discord.com/invite/snipeware'">Join the
+            Discord</button>
+        <button>Apply for Snipeware</button>
+        <button onclick="location.href='./buy.html'">Snipeware Premium</button>
+    </div>
+
+    <h2>Our Features</h2>
+
+    <!--     way too many nested divs here oh god oh fuck 
+                    change these however you like                 -->
+    <div style="display: flex;">
+
+        <div class="feature-box">
+            <center>
+                <div class="feature-icon">
+                    <ion-icon name="wallet"></ion-icon>
+                </div>
+            </center>
+            <h3>Completely Free</h3>
+            <p>At the low price of $0.00, simply fill out an application to get the client and start playing!</p>
+        </div>
+
+        <div class="feature-box">
+            <center>
+                <div class="feature-icon">
+                    <ion-icon name="flame"></ion-icon>
+                </div>
+            </center>
+            <h3>Premium Bypasses</h3>
+            <p>All the latest bypasses for Hypixel, Redesky, and more for the snoothest experience.</p>
+        </div>
+
+        <div class="feature-box">
+            <center>
+                <div class="feature-icon">
+                    <ion-icon name="options"></ion-icon>
+                </div>
+            </center>
+            <h3>Many Features</h3>
+            <p>Snipeware has many modules that will assist you in any PVP minigame you could ever want to play.</p>
+        </div>
+
+    </div>
+
+    <h2 style="margin-bottom: 15px;">Apply Today!</h2>
+
+    <button>Apply for Snipeware</button>
+</body>
+
+</html>

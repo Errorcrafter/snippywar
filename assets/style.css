@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap'); /* snippyware logo font */
+
+:root {
+    --accent: #36b3eb;
+    --accent-light: #62c1ec;
+    --bg: #0f0f0f;
+    --bg-light: #2a2a2a;
+    --bg-invert: #c7c7c7;
+}
+
+html {
+    height: 100%;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+body {
+    height: 100%;
+    background-color: var(--bg);
+    color: white;
+    font-family: 'Rubik', Verdana, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 3px;
+    font-size: 100px;
+    font-family: 'Rubik', Verdana, Tahoma, sans-serif;
+}
+
+h2 {
+    margin: 3px;
+    font-size: 60px;
+    font-family: 'Rubik', Verdana, Tahoma, sans-serif;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+    color: var(--accent);
+    text-decoration: none;
+}
+  
+/* visited link */
+a:visited {
+    color: var(--accent);
+    text-decoration: none;
+}
+  
+/* mouse over link */
+a:hover {
+    color: var(--accent-light);
+    text-decoration: underline;
+}  
+
+/* selected link */
+a:active {
+    color: var(--accent-light);
+    text-decoration: underline;
+}
+
+.title {
+    padding: 10px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.video-wrap iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    transform: translate(-50%, -50%);
+    opacity: 0.35;
+    height:56vw;
+    pointer-events: none;
+    z-index:-1;
+}
+
+.video-wrap {
+    position: relative;
+    overflow: hidden;
+    height: 85vh;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 25px;
+    background-color: var(--bg-light);
+}
+
+.header {
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0px;
+    background-color: var(--bg-light);
+    text-align: left;
+}
+
+button.discord-button {
+    background-color: #7289DA;
+}
+
+button.discord-button:hover {
+    background-color: #7e8fce;
+}
+
+button {
+    border: 0px;
+    border-radius: 12.5px;
+    background-color: var(--accent);
+    color: white;
+    font-family: 'Rubik', Verdana, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    display: block;
+}
+
+button:hover {
+    background-color: var(--accent-light);
+}
+
+.feature-box {
+    border: 0px;
+    border-radius: 10px;
+    background-color: var(--bg-light);
+    padding: 20px;
+    margin: 10px;
+    margin-top: 20px;
+    width: 33.333%;
+}
+
+.feature-icon {
+    color: var(--accent);
+    background-color: #a3d4eb00;
+    border: 5px solid #a3d4eb86;
+    border-color: #a3d4eb86;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 10px;
+}
+
+h3 {
+    margin: 0px;
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+ion-icon {
+    font-size: 25px;
+}
+
+.credits-box {
+    margin: 0 auto;
+    height: auto;
+    padding: 50px;
+    border-radius: 12px;
+    background-color: var(--bg-invert);
+    color: black;
+    width: 420px;
+}
