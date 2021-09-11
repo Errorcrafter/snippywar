@@ -44,25 +44,25 @@ a {
 
 /* unvisited link */
 a:link {
-    color: var(--accent);
+    color: white;
     text-decoration: none;
 }
   
 /* visited link */
 a:visited {
-    color: var(--accent);
+    color: lightgray;
     text-decoration: none;
 }
   
 /* mouse over link */
 a:hover {
-    color: var(--accent-light);
+    color: white;
     text-decoration: underline;
 }  
 
 /* selected link */
 a:active {
-    color: var(--accent-light);
+    color: grey;
     text-decoration: underline;
 }
 
