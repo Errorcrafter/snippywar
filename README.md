@@ -1,2 +1,4 @@
 # snippywar
-i shold be studying
+why did i make this
+
+**credits to @prokube for un-retarding the html**
