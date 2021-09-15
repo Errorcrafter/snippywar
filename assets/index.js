@@ -4,7 +4,6 @@ function getMOTD() {
     return motds[Math.floor(Math.random() * motds.length)];
 }
 
-// "this message shouldn't appear :)"
 window.onload = () => {
     document.getElementById('motd').innerHTML = getMOTD();
 }
