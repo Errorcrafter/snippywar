@@ -15,19 +15,11 @@
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 
     <link href="./assets/style.css" rel="stylesheet">
+{% seo %}
 </head>
 
 <body>
-    <div class="header" style="display: flex;">
-        <a href=./index.html#home>
-            <img src="./assets/snipeware.webp" height="70px"></img>
-        </a>
-        <div style="margin: auto 0 auto auto; text-align: right;">
-            <a href="./apply.html" style="margin: 10px; font-size: 25px;">Apply</a>
-            <a href="./buy.html" style="margin: 10px; font-size: 25px;">Buy</a>
-            <a href="./credits.html" style="margin: 10px; font-size: 25px;">Credits</a>
-        </div>
-    </div>
+    {% include header.html %}
 
     <div class="video-wrap">
         <iframe id="video-iframe" title="Showcase video"
@@ -35,15 +27,7 @@
             frameborder="0"></iframe>
     </div>
 
-    <div class="title" style="left: 44px; top: 100px;">
-        <h1><span style="color: var(--accent);">Snipe</span>ware</h1>
-        <span id="motd">Utility client for 1.8</span>
-        <button class="discord-button" style="margin-top: 50px;"
-            onclick="location.href='https://discord.com/invite/snipeware'">Join the
-            Discord</button>
-        <button onclick="location.href='./apply.html'"><a href="./apply.html">Apply for Snipeware</a></button>
-        <button onclick="location.href='./buy.html'"><a href="./buy.html">Snipeware Premium</a></button>
-    </div>
+    {% include title.html %}
 
     <h2>Our Features</h2>
 
