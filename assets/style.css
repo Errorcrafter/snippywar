@@ -121,7 +121,7 @@ button.discord-button:hover {
     
     animation-name: buttonhoveranim;
     animation-duration: 1s;
-    animation-timing-function: cubic-bezier(.17,.67,.75,.47);
+    animation-timing-function: cubic-bezier(0,1.15,.56,1.03);
     animation-iteration-count: 1;
     animation-delay: 0s;
     animation-fill-mode: none;
@@ -149,7 +149,7 @@ button:hover {
     
     animation-name: buttonhoveranim;
     animation-duration: 1s;
-    animation-timing-function: cubic-bezier(.17,.67,.75,.47);
+    animation-timing-function: cubic-bezier(0,1.15,.56,1.03);
     animation-iteration-count: 1;
     animation-delay: 0s;
     animation-fill-mode: none;
