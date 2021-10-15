@@ -9,4 +9,5 @@ function getMOTD() {
 
 window.onload = () => {
     document.getElementById('motd').innerHTML = getMOTD();
+    blockSites();
 }
