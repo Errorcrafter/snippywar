@@ -127,7 +127,7 @@ button.discord-button:hover {
     animation-fill-mode: none;
     animation-direction: forwards;
     
-    transform: translateX(-10px);
+    transform: translateX(-15px);
 }
 
 button {
@@ -155,7 +155,7 @@ button:hover {
     animation-fill-mode: none;
     animation-direction: forwards;
     
-    transform: translateX(-10px);
+    transform: translateX(-15px);
 }
 
 @keyframes buttonhoveranim {
@@ -163,7 +163,8 @@ button:hover {
         transform: translateX(0px);
     }
     100% {
-        transform: translateX(-10px);
+        transform: translateX(-15px);
+        border-radius: 0%;
     }
 }
 
