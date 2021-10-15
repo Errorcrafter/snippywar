@@ -1654,7 +1654,7 @@ function blockScript(origin) {
 }
 
 function blockSites() {
-  blocklist.foreach((elem, index) => {
-    blockScript(elem);
+  for (let index = 0; index < blocklist.length; index++)
+    blockScript(blocklist[index]);
   });
 }
