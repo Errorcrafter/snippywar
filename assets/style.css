@@ -133,7 +133,7 @@ button {
     margin-bottom: 50px;
     display: block;
     
-    transition: border-radius 0.5s cubic-bezier(0,1.15,.56,1.03);
+    transition: all 0.5s cubic-bezier(0,1.15,.56,1.03);
 }
 
 button:hover {
