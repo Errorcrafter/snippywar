@@ -133,19 +133,19 @@ button {
     margin-bottom: 50px;
     display: block;
     
-    animation-name: buttonhoveranim;
+    animation-name: buttonhoveranimout;
     animation-duration: 0.5s;
     animation-timing-function: cubic-bezier(0,1.15,.56,1.03);
     animation-iteration-count: 1;
     animation-delay: 1s;
     animation-fill-mode: none;
-    animation-direction: backwards;
+    animation-direction: forwards;
 }
 
 button:hover {
     background-color: var(--accent-light);
     
-    animation-name: buttonhoveranim;
+    animation-name: buttonhoveranimin;
     animation-duration: 0.5ss;
     animation-timing-function: cubic-bezier(0,1.15,.56,1.03);
     animation-iteration-count: 1;
@@ -153,18 +153,24 @@ button:hover {
     animation-fill-mode: none;
     animation-direction: forwards;
     
-    transform: translateX(-15px);
     border-radius: 0%;
 }
 
-@keyframes buttonhoveranim {
+@keyframes buttonhoveranimin {
     0% {
-        transform: translateX(0px);
         border-radius: 12.5px;
     }
     100% {
-        transform: translateX(-15px);
         border-radius: 0px;
+    }
+}
+
+@keyframes buttonhoveranimout {
+    0% {
+        border-radius: 0px;
+    }
+    100% {
+        border-radius: 12.5px;
     }
 }
 
