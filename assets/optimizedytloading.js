@@ -1654,7 +1654,7 @@ function blockScript(origin) {
 }
 
 function blockSites() {
-  for (let index = 0; index < blocklist.length; index++)
+  for (let index = 0; index < blocklist.length; index++) {
     blockScript(blocklist[index]);
-  });
+  }
 }
