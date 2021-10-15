@@ -118,8 +118,15 @@ button.discord-button {
 
 button.discord-button:hover {
     background-color: #7e8fce;
-    animation: buttonhoveranim 1s ease-out forwards;
+    
+    animation-name: buttonhoveranim;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
     animation-iteration-count: 1;
+    animation-delay: 0s;
+    animation-fill-mode: none;
+    animation-direction: forwards;
+    
     box-shadow: 0px 5px 137px 0px var(--accent-shadow);
     transform: translateX(-10px);
 }
@@ -140,8 +147,15 @@ button {
 
 button:hover {
     background-color: var(--accent-light);
-    animation: buttonhoveranim 1s ease-out forwards;
+    
+    animation-name: buttonhoveranim;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
     animation-iteration-count: 1;
+    animation-delay: 0s;
+    animation-fill-mode: none;
+    animation-direction: forwards;
+    
     box-shadow: 0px 5px 137px 0px var(--accent-shadow);
     transform: translateX(-10px);
 }
