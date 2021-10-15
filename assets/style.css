@@ -133,33 +133,13 @@ button {
     margin-bottom: 50px;
     display: block;
     
-    -webkit-transition: buttonhoveranimout 0.5s cubic-bezier(0,1.15,.56,1.03) 0s 1 forwards;
+    transition: border-radius 0.5s cubic-bezier(0,1.15,.56,1.03);
 }
 
 button:hover {
     background-color: var(--accent-light);
     
-    -webkit-transition: buttonhoveranimin 0.5s cubic-bezier(0,1.15,.56,1.03) 0s 1 forwards;
-    
     border-radius: 0%;
-}
-
-@keyframes buttonhoveranimin {
-    0% {
-        border-radius: 12.5px;
-    }
-    100% {
-        border-radius: 0px;
-    }
-}
-
-@keyframes buttonhoveranimout {
-    0% {
-        border-radius: 0px;
-    }
-    100% {
-        border-radius: 12.5px;
-    }
 }
 
 .feature-box {
