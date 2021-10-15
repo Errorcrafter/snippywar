@@ -3,6 +3,7 @@
 :root {
     --accent: #36b3eb;
     --accent-light: #62c1ec;
+    --accent-shadow: 02C2FF;
     --bg: #0f0f0f;
     --bg-light: #2a2a2a;
     --bg-invert: #c7c7c7;
@@ -135,6 +136,19 @@ button {
 
 button:hover {
     background-color: var(--accent-light);
+    animation: buttonhoveranim 1s ease-out forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes buttonhoveranim {
+    from {
+        box-shadow: none;
+        transform: translateX(0px);
+    }
+    to {
+        box-shadow: 0px 0px 40px 20px var(--accent-shadow);
+        transform: translateX(-0px);
+    }
 }
 
 .feature-box {
