@@ -133,23 +133,13 @@ button {
     margin-bottom: 50px;
     display: block;
     
-    animation-name: buttonhoveranimout;
-    animation-duration: 1s;
-    animation-timing-function: cubic-bezier(0,1.15,.56,1.03);
-    animation-iteration-count: 1;
-    animation-fill-mode: none;
-    animation-direction: forwards;
+    -webkit-transition: buttonhoveranimout 0.5s cubic-bezier(0,1.15,.56,1.03) 0s 1 forwards;
 }
 
 button:hover {
     background-color: var(--accent-light);
     
-    animation-name: buttonhoveranimin;
-    animation-duration: 1s;
-    animation-timing-function: cubic-bezier(0,1.15,.56,1.03);
-    animation-iteration-count: 1;
-    animation-fill-mode: none;
-    animation-direction: forwards;
+    -webkit-transition: buttonhoveranimin 0.5s cubic-bezier(0,1.15,.56,1.03) 0s 1 forwards;
     
     border-radius: 0%;
 }
