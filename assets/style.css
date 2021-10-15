@@ -118,17 +118,6 @@ button.discord-button {
 
 button.discord-button:hover {
     background-color: #7e8fce;
-    
-    animation-name: buttonhoveranim;
-    animation-duration: 0.5s;
-    animation-timing-function: cubic-bezier(0,1.15,.56,1.03);
-    animation-iteration-count: 1;
-    animation-delay: 1s;
-    animation-fill-mode: none;
-    animation-direction: forwards;
-    
-    transform: translateX(-15px);
-    border-radius: 0%;
 }
 
 button {
@@ -171,10 +160,11 @@ button:hover {
 @keyframes buttonhoveranim {
     0% {
         transform: translateX(0px);
+        border-radius: 12.5px;
     }
     100% {
         transform: translateX(-15px);
-        border-radius: 0%;
+        border-radius: 0px;
     }
 }
 
