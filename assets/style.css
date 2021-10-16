@@ -155,17 +155,13 @@ button:hover {
 
 .feature-icon {
     color: var(--accent);
-    background-color: var(--accent);
     border: 5px solid #a3d4eb86;
     border-color: #a3d4eb86;
     border-radius: 50%;
     width: 60px;
     height: 60px;
-    line-height: 60px;
+    line-height: 10px;
     margin-top: 10px;
-    
-    position: relative;
-    top: -50px;
 }
 
 h3 {
