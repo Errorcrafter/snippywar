@@ -1,5 +1,6 @@
 /// Oh lord, this is long. The domain blocklist to remove ads from.
 var blocklist = Array(
+  "youtube-nocookie.com",
   "r1---sn-cvh7knez.googlevideo.com",
   "r2---sn-cvh7knez.googlevideo.com",
   "r3---sn-cvh7knez.googlevideo.com",
