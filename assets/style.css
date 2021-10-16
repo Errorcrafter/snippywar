@@ -140,7 +140,7 @@ button:hover {
     background-color: var(--accent-light);
     
     border-radius: 0%;
-    transform: translateX(-10px);
+    width: 150%;
 }
 
 .feature-box {
