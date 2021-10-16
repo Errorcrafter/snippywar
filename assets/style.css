@@ -163,7 +163,9 @@ button:hover {
     height: 60px;
     line-height: 60px;
     margin-top: 10px;
-    transform: translateY(-10px);
+    
+    position: relative;
+    top: -10px;
 }
 
 h3 {
