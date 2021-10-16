@@ -155,7 +155,7 @@ button:hover {
 
 .feature-icon {
     color: var(--accent);
-    background-color: #a3d4eb00;
+    background-color: var(--accent);
     border: 5px solid #a3d4eb86;
     border-color: #a3d4eb86;
     border-radius: 50%;
@@ -176,6 +176,8 @@ h3 {
 
 ion-icon {
     font-size: 25px;
+    position: relative;
+    top: 10px;
 }
 
 .credits-box {
