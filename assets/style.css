@@ -3,6 +3,7 @@
 :root {
     --accent: #36b3eb;
     --accent-light: #62c1ec;
+    --accent-shadow: 02C2FF;
     --bg: #0f0f0f;
     --bg-light: #2a2a2a;
     --bg-invert: #c7c7c7;
@@ -131,10 +132,15 @@ button {
     margin-right: auto;
     margin-bottom: 50px;
     display: block;
+    
+    transition: all 0.5s cubic-bezier(0,1.15,.56,1.03);
 }
 
 button:hover {
     background-color: var(--accent-light);
+    
+    border-radius: 0%;
+    transform: scale(1.5);
 }
 
 .feature-box {
@@ -149,13 +155,12 @@ button:hover {
 
 .feature-icon {
     color: var(--accent);
-    background-color: #a3d4eb00;
     border: 5px solid #a3d4eb86;
     border-color: #a3d4eb86;
     border-radius: 50%;
     width: 60px;
     height: 60px;
-    line-height: 60px;
+    line-height: 10px;
     margin-top: 10px;
 }
 
@@ -167,6 +172,8 @@ h3 {
 
 ion-icon {
     font-size: 25px;
+    position: relative;
+    top: 18px;
 }
 
 .credits-box {
